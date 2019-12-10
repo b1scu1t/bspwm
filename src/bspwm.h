@@ -76,6 +76,7 @@ struct {
 xcb_atom_t WM_STATE;
 xcb_atom_t WM_TAKE_FOCUS;
 xcb_atom_t WM_DELETE_WINDOW;
+xcb_atom_t WM_CHANGE_STATE;
 int exit_status;
 
 bool auto_raise;

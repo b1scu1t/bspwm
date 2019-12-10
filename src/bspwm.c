@@ -351,6 +351,7 @@ void setup(void)
 	GETATOM(WM_STATE)
 	GETATOM(WM_DELETE_WINDOW)
 	GETATOM(WM_TAKE_FOCUS)
+	GETATOM(WM_CHANGE_STATE)
 #undef GETATOM
 
 	const xcb_query_extension_reply_t *qep = xcb_get_extension_data(dpy, &xcb_randr_id);
